@@ -23,7 +23,6 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue,
         };
-
         match guess.cmp(&secret_number) {
             std::cmp::Ordering::Less => println!("{}", "Too small!".red()),
             std::cmp::Ordering::Equal => {
