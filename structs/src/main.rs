@@ -44,10 +44,10 @@ fn main() {
     let p = Point { x: 1.0, y: 2.0 };
     println!("point.x = {}, point.y = {}", p.x, p.y);
 
-    let p3D = Point3D(1.0, 2.0, 3.0);
+    let p3_d = Point3D(1.0, 2.0, 3.0);
     println!(
         "point3D.x = {}, point3D.y = {}, point3D.z = {}",
-        p3D.0, p3D.1, p3D.2
+        p3_d.0, p3_d.1, p3_d.2
     );
 
     let empty = Empty;

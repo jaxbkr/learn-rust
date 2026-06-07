@@ -1,4 +1,4 @@
-#![allow(unsed)]
+#![allow(unused)]
 
 enum Animal {
     Cat,
